@@ -5,6 +5,10 @@
     font: 32px Viga;
 }
 
+.navbar {
+    z-index: 1;
+}
+
 
 /* Jumbotron */
 .jumbotron {
@@ -12,7 +16,7 @@
     background-size: cover;
     height: 540px;
     position: relative;
-    z-index: -1;
+    z-index: 0;
 }
 
 .jumbotron::after {
@@ -143,6 +147,8 @@
 .tombol {
     border-radius: 40px;
     text-transform: uppercase;
+    position: relative;
+    z-index: 2;
 }
 
 /* RESPONSIVE */
