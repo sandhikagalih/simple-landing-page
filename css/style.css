@@ -143,6 +143,7 @@
 .tombol {
     border-radius: 40px;
     text-transform: uppercase;
+    background-color: rgb(44, 196, 44);
 }
 
 /* RESPONSIVE */
