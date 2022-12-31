@@ -1,11 +1,3 @@
-
-
-/* Navbar */
-.navbar-brand {
-    font: 32px Viga;
-}
-
-
 /* Jumbotron */
 .jumbotron {
     background: url(../img/jumbotron-bg.jpg);
@@ -65,7 +57,7 @@
 .info-panel p {
     font-size: 14px;
     font-weight: lighter;
-    color: #acacac;
+    color: #252525;
 }
 
 
@@ -77,6 +69,7 @@
 }
 
 .workingspace img {
+    border-radius: 15px;
     margin-bottom: 20px;
 }
 
@@ -92,7 +85,7 @@
 
 .workingspace p {
     font-size: 18px;
-    color: #ACACAC;
+    color: #252525;
     font-weight: 200;
 }
 
@@ -133,7 +126,7 @@
 .testimonial .info-text p {
     font-size: 12px;
     margin-top: -5px;
-    color: #acacac;
+    color: #252525;
     font-style: normal;
 }
 
