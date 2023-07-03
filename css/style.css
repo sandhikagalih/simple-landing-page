@@ -194,17 +194,3 @@
     }
 
 }
-
-
-footer {
-    background-color: #333;
-}
-
-footer p {
-    color: #aaa;
-    font-size: 1em;
-}
-
-footer p i {
-    color: salmon;
-}
