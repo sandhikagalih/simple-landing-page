@@ -1,8 +1,20 @@
 
+ /* hide scrollbar */
+
+ ::-webkit-scrollbar{
+    display: none;
+ }
+
+
+
 
 /* Navbar */
 .navbar-brand {
     font: 32px Viga;
+    
+}
+.navbar-brand:hover{
+    color: #007bff  !important; 
 }
 
 
