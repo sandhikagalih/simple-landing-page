@@ -36,9 +36,9 @@
     font-weight: 200;
     font-size: 2.6em;
     margin-top: 100px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     margin-bottom: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .jumbotron .display-4 span {
@@ -62,12 +62,14 @@
     margin-top: 20px;
     text-transform: uppercase;
     margin-left: 20px;
+    text-align: center;
 }
 
 .info-panel p {
     font-size: 14px;
     font-weight: lighter;
     color: #acacac;
+    text-align: center;
 }
 
 
@@ -76,10 +78,12 @@
 .workingspace {
     margin-top: 120px;
     text-align: center;
+    margin-left: 60px;
 }
 
 .workingspace img {
     margin-bottom: 20px;
+    border-radius: 50px;
 }
 
 .workingspace h2 {
@@ -94,49 +98,44 @@
 
 .workingspace p {
     font-size: 18px;
-    color: #ACACAC;
+    color: #0e0d0d;
     font-weight: 200;
 }
 
 
 /* Testimonial */
 .testimonial {
-    margin-top: 130px;
+    margin-top: 200px;
 }
 
 .testimonial p {
     font-size: 1.4em;
     text-align: center;
-    font-weight: 200;
-    font-style: italic;
-    margin-bottom: 30px;
+    font-weight: 50;
+    font-style: bold;
+    margin-bottom: 10px;
 }
 
 .testimonial img {
-    width: 80px;
-    height: 80px;
-    margin: 10px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
     border-radius: 50%;
-    filter: grayscale(1);
-}
-
-.testimonial .img-main {
-    width: 100px;
-    height: 100px;
-    margin-top: -5px;
-    filter: grayscale(0);
+    ;
 }
 
 .testimonial .info-text h5 {
     font-size: 16px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .testimonial .info-text p {
     font-size: 12px;
-    margin-top: -5px;
+    margin-top: 5px;
     color: #acacac;
     font-style: normal;
+    margin-bottom: 50px;
 }
 
 
@@ -166,8 +165,6 @@
     .nav-link:hover::after,
     .nav-link.active::after {
         content: '';
-        display: block;
-        border-bottom: 3px solid #93dc0b;
         margin: auto;
         margin-bottom: -8px;
         width: 50%;
