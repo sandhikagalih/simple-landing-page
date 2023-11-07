@@ -8,7 +8,7 @@
 
 /* Jumbotron */
 .jumbotron {
-    background: url(../img/jumbotron-bg.jpg);
+    background: url(../img/banner.png);
     background-size: cover;
     height: 540px;
     position: relative;
@@ -38,6 +38,7 @@
     margin-top: 100px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     margin-bottom: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .jumbotron .display-4 span {
@@ -48,7 +49,7 @@
 
 /* Info Panel */
 .info-panel {
-    background-color: white;
+    background-color: greenyellow;
     padding: 30px;
     margin-top: -120px;
     border-radius: 12px;
@@ -60,6 +61,7 @@
     font-weight: bold;
     margin-top: 20px;
     text-transform: uppercase;
+    margin-left: 20px;
 }
 
 .info-panel p {
@@ -165,7 +167,7 @@
     .nav-link.active::after {
         content: '';
         display: block;
-        border-bottom: 3px solid #0B63DC;
+        border-bottom: 3px solid #93dc0b;
         margin: auto;
         margin-bottom: -8px;
         width: 50%;
@@ -193,4 +195,6 @@
         font-size: 2em;
     }
 
+}   body {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/spikes.png);
 }
