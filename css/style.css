@@ -50,9 +50,9 @@
 .info-panel {
     background-color: white;
     padding: 30px;
-    margin-top: -120px;
+    margin-top: 40px; /* was -120px when overlapping hero; adjusted after reordering */
     border-radius: 12px;
-    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
 }
 
 .info-panel h4 {
