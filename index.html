@@ -13,6 +13,102 @@
     <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
 
     <title>Sandhika Galih</title>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+<style>
+
+/* Social Container */
+
+.social-box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:18px;
+    padding:18px 28px;
+    border-radius:80px;
+    background:rgba(255,255,255,.75);
+    backdrop-filter:blur(15px);
+    box-shadow:
+        0 10px 35px rgba(0,0,0,.08),
+        inset 0 0 0 1px rgba(255,255,255,.7);
+}
+
+.social-box a{
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    color:#fff;
+    font-size:28px;
+    transition:.35s ease;
+    position:relative;
+    overflow:hidden;
+}
+
+.social-box a::before{
+    content:'';
+    position:absolute;
+    inset:0;
+    background:rgba(255,255,255,.18);
+    transform:scale(0);
+    border-radius:50%;
+    transition:.35s;
+}
+
+.social-box a:hover::before{
+    transform:scale(1.6);
+}
+
+.social-box a:hover{
+    transform:translateY(-8px) rotate(-8deg) scale(1.12);
+    box-shadow:0 15px 30px rgba(0,0,0,.25);
+}
+
+/* Brand Colors */
+
+.youtube{
+    background:linear-gradient(135deg,#ff0000,#ff6a6a);
+}
+
+.facebook{
+    background:linear-gradient(135deg,#1877F2,#4e9cff);
+}
+
+.x{
+    background:linear-gradient(135deg,#111,#555);
+}
+
+.linkedin{
+    background:linear-gradient(135deg,#0077B5,#3aa6ff);
+}
+
+.instagram{
+    background:linear-gradient(135deg,#f58529,#feda77,#dd2a7b,#8134af,#515bd4);
+}
+
+/* Mobile */
+
+@media(max-width:600px){
+
+.social-box{
+    gap:10px;
+    padding:14px 18px;
+}
+
+.social-box a{
+    width:55px;
+    height:55px;
+    font-size:24px;
+}
+
+}
+</style>
+
+
   </head>
   <body>
 
@@ -117,7 +213,34 @@
     </div>
     <!-- akhir container -->
 
+<!-- Social Media Links Start-->
 
+<div class="social-box">
+
+    <a href="#" class="youtube" target="_blank">
+        <i class="fab fa-youtube"></i>
+    </a>
+
+    <a href="#" class="facebook" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+
+    <a href="#" class="x" target="_blank">
+        <i class="fab fa-x-twitter"></i>
+    </a>
+
+    <a href="#" class="linkedin" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+
+    <a href="#" class="instagram" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+</div>
+
+
+<!-- Social Media Links Start-->
 
 
     
